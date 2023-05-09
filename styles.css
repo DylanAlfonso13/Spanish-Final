@@ -1,0 +1,287 @@
+/* GENERAL */
+* {
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope';
+}
+
+/* Add padding to each section to adjust for navbar height */
+section {
+    padding-top: 80px;
+    margin-top: -80px;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+
+p{
+    margin-top:1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+p2{
+    margin-top: 1rem;
+    font-size: larger;
+    font-weight: 700;
+}
+
+.reflections {
+    margin-top: 1rem;
+    font-size: larger;
+    font-weight: 700;
+    margin: 25px 0px 100px
+}
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar{
+    background: #000;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar_container{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar_logo{
+    background-color: #fff;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.navbar_menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+}
+
+.navbar_item {
+    height: 80px;
+}
+
+.navbar_links{
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+}
+
+/* INTRO CSS */
+.main{
+    padding-top: 80px;
+    margin-top: -80px;
+    background-color: #accbff;
+}
+
+.main_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    margin: 0 auto;
+    height: 90vh;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.main_content{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 0 50px;
+}
+
+/* MUSIC CSS */
+
+.music{
+    background-color: #92bbff;
+}
+
+.music_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.music_content{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.musicrow {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+  
+.musiccol {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* POETRY CSS */
+
+.poetry{
+    background-color: #78aaff;
+}
+
+.poetry_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.poetry_content{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.poetryrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+
+.poetrycol{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Art CSS */
+
+.art{
+    background-color: #649eff;
+}
+
+.art_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.art_content{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.artrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+
+.artcol{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 50%;
+    max-width: 50%;
+    padding: 0 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Futuro CSS */
+
+.future{
+    background-color: #4188ff;
+}
+
+.future_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-self: center;
+    margin: 0 auto;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    padding: 0 50px;
+}
+
+.future_content{
+    grid-column: 1/4;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.futurerow{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 15px;
+}
+
+.futurecol{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 33%;
+    max-width: 33%;
+    padding: 0 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
